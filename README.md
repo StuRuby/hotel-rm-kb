@@ -1,8 +1,37 @@
-# 酒店收益顾问知识库
+# Hotel Revenue Management Knowledge Base
 
-静态站已发布。本地源在顾问机上的 `/home/box/revenue-management`。
+This repository hosts the full **Markdown** Advisor-First revenue management knowledge base under [`knowledge/`](knowledge/).
 
-- 站点：https://sturuby.github.io/hotel-rm-kb/
-- 仓库：https://github.com/StuRuby/hotel-rm-kb
+The previous static site shell (`index.html`, `assets/`, `.nojekyll`) remains at the repo root for reference. The live browseable site is:
 
-Advisor-First：只建议，不操作系统、不自动调价。
+**https://walnut-lemon-ffgf.here.now/**
+
+## Start here
+
+- Full KB root: [`knowledge/README.md`](knowledge/README.md)
+- Advisor process: [`knowledge/decision-framework/advisor-process.md`](knowledge/decision-framework/advisor-process.md)
+- Playbooks: [`knowledge/advisor-playbooks/`](knowledge/advisor-playbooks/)
+
+## Advisor-First scope
+
+This knowledge base supports **diagnosis and recommendations only**.
+
+- No automated PMS / CRS / RMS / Channel Manager / OTA operations
+- No auto-pricing or system write-backs
+- Advise and evaluate; do not operate
+
+## Layout
+
+```
+.
+├── README.md          ← you are here (repo entry)
+├── index.html         ← legacy static site shell
+├── assets/
+├── .nojekyll
+└── knowledge/         ← full Markdown KB (687 files)
+    ├── README.md
+    ├── advisor-playbooks/
+    ├── curriculum/
+    ├── diagnosis/
+    └── …
+```
